@@ -1,0 +1,22 @@
+1.num1_str = str(1122334455666) #cast num1 to string and assign to num1_str
+2.print(len(num1_str)) #check the length of the string
+
+3.print(num1_str[2])  #get the third element of string (the one in the 3rd order)
+
+4.print(num1_str[2:5]) #get the 3-5 elements of string (both inclusive) by string slicing
+
+5.num2 = num1_str
+print(num2 in num1_str) #check if num2 in string (cast if necessary)
+
+I could not question 6
+
+7.string_with_0 = str(0) + num1_str #concatenate 0 to the string from left and assign to string_with_0
+print(string_with_0)
+
+8.X = string_with_0[:4]
+print(x) #get the characters of string_with_0 from start to position 4 (end point exclusive)
+
+9.Y = string_with_0[5:]
+print(Y)  #get the characters of string_with_0 from position 5 until the end
+
+I could not solve question 10 
